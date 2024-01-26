@@ -1,0 +1,936 @@
+/* Import font family form Google font */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+/* crsuwriting google font */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300..700&display=swap');
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvvar(--font-fa-san);
+}
+
+:root{
+    --font-fa-san: "Quicksand", sans-serif;
+    --font-fa-cur: "Pacifico", cursive;
+    --container-width: 90%;
+    --color-green: #f4952c ;
+    --color-black: black;
+    --color-white: #fff;
+}
+
+
+/* Side Scrollbar got hide form container */
+::-webkit-scrollbar{
+     display: none;
+}
+
+body{
+    background-attachment: fixed;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq2CWwLgd140Qblaxd6fZ7i8UJoinGlT3r2A&usqp=CAU);
+    overflow: hidden;
+}
+
+/*  This is macbook air type hole container */
+.container{
+    border: 15px solid;
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+    margin-top: 5px;
+    left: 10%;
+    background-color: #f2f1ec;
+    overflow-y: scroll; /* Enable vertical scrolling for the content */
+    height: 99vh; /* Set the height of the content */
+}
+
+/* Top navbar of container */
+.navbar{
+    width: 78.1%;
+    height: auto;
+    background-color: #b1a8a8b6;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    padding-left: 5px;
+}
+
+/* This is left part of navbar */
+.navbar-1{
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navbar-1-1{
+    width: 5%;
+}
+
+.navbar-1-2{
+    width: 35%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navbar-1-2 p{
+    padding-inline: 5px;
+    font-size: .7rem;
+    margin: 0px;
+}
+
+#p-bold{
+    font-weight: 700;
+}
+
+.apple-logo{
+    width: 100%;
+    padding-bottom: 4px;
+    margin: 0;
+}
+
+/* This is center notch content */
+.navbar-2{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.notch{
+    background-color: var(--color-black);
+    width: 10%;
+    height: 25px;
+    margin: auto;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: fixed;
+    
+}
+
+.notch-point{
+    background-color: #af62628e;
+    width: 8px;
+    height: 8px;
+    padding: 8px;
+    margin: auto;
+    /* padding: 10px; */
+    border-radius: 50%;
+    position: relative;
+}
+
+
+/* Right part of container navbar */
+.navbar-3{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 30px;
+    align-items: center;
+}
+
+.navbar-icon{
+    padding-inline: 10px;
+    font-size: .9rem;
+    cursor: pointer;
+    /* position: relative; */
+}
+
+
+   /* right sidebar icon */
+   .right-sidebar-icon{
+    width: 5%;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 7%;
+    left: 10%;
+    margin-left: 20px;
+   }
+
+   .right-sidebar-first-icon{
+    width: 100%;
+    border: 1px solid;
+    padding: 10px;
+    font-size: 1rem;
+    margin-block: 10px;
+    border-radius: 20px;
+
+    color: var(--color-white);
+    background-color: rgba(0, 0, 0, 0.276);
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s ease-in-out .1s;
+   }
+
+   .right-sidebar-first-icon a>i{
+    color: var(--color-white);
+   }
+
+   .right-sidebar-first-icon a>i:hover{
+    /* border-radius: 70%; */
+    color: var(--color-black);
+   }
+
+   .right-sidebar-first-icon:hover{
+    background-color: var(--color-green);
+    border-radius: 20px;
+    color:  var(--color-black);
+    cursor: pointer;
+    border: 2px solid var(--color-green);
+   }
+
+   .right-sidebar-first-icon i{
+    padding-inline: 15px;
+   }
+
+
+
+/* display */
+.mini-container-first{
+    margin: auto;
+    width: var(--container-width);
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.mini-container-first-img{
+    width: 100%;
+}
+
+.mini-container-first-img img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+/* Super Hero name */
+.super-hero-name{
+    width: var(--container-width);
+    text-align: center;
+    margin: auto;
+}
+
+.super-hero-name h1{
+    padding-block: 46px;
+    font-family: var(--font-fa-san);
+    font-size: 4rem;
+    background-image: url(/background\ ha.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.super-hero-name span{
+    font-family: var(--font-fa-san);
+    color: var(--color-green);
+}
+
+
+/* Hero Education */
+.hero-education{
+    /* border: 1px solid; */
+    width: var(--container-width);
+    margin: auto;
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+    background-image: url(/background\ ba.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    border-radius: 20px;
+    padding-bottom: 50px;
+}
+
+.hero-education h2:nth-child(1){
+    font-family: var(--font-fa-cur);
+    color: var(--color-green);
+    font-size: 3rem;
+}
+
+.hero-education h2:nth-child(2){
+    font-family: var(--font-fa-san);
+}
+
+
+.hero-education-section{
+    display: grid;
+    grid-template-columns: repeat(2,47%);
+    grid-template-rows: auto;
+
+    gap: 50px;
+    padding-inline:40px;
+    padding-top: 50px;
+    margin: auto;
+}
+
+.hero-education-1{
+    padding-inline: 50px;
+    border-radius: 25px;
+    background-color: #dd98984e;
+    border: 3px solid #f4972c51;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.hero-education-1 div{
+    margin: auto;
+}
+
+.hero-education-1 div i{
+    font-size: 4rem;
+    background-color: var(--color-green);
+    color:-black;
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+.hero-education-1 p:nth-child(3){
+    margin-bottom: 10px;
+}
+
+.hero-education-1 p:nth-child(4){
+    margin-bottom: 10px;
+    padding-inline: 20px;
+}
+
+.hero-education-1 p:nth-child(5){
+    font-weight: 900;
+    font-size: 1.6rem;
+    font-family: var(--font-fa-san);
+    color: var(--color-green);
+    margin-bottom: 20px;
+
+    transition: all .2s ease-in-out .1s;
+}
+
+.hero-education-1 p:nth-child(5):hover{
+    color: var(--color-black);
+    cursor: pointer;
+    font-weight: 900;
+}
+
+
+/* hero exprience section */
+.hero-exprience-section{
+    width: var(--container-width);
+    margin: auto;
+    margin-top: 50px;
+}
+
+#hero-exprience-section-font{
+    text-align: center;
+    font-family: var(--font-fa-cur);
+    color: var(--color-green);
+    font-size: 3rem;
+}
+
+.hero-exprience-section-part{
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    gap: 30px;
+}
+
+.hero-exprience-section-part div{
+    border: 2px solid rgba(0, 0, 0, 0.154);
+    border-radius: 20px;
+    transition: all .4s ease-in-out .1s;
+}
+
+.hero-exprience-section-part div:hover{
+    background-color: var(--color-green);
+    color: var(--color-white);
+    cursor: pointer;
+}
+
+.hero-exprience-section-part div>h2{
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+.hero-exprience-section-part div>h2,p{
+    text-align: center;
+    font-family: var(--font-fa-san);
+    margin-bottom: 20px;
+    padding-inline: 30px;
+}
+
+
+/* Skill section */
+.skill-section{
+    width: var(--container-width);
+    margin: auto;
+    border: 3px solid rgba(0, 0, 0, 0.217); 
+    border-radius: 25px;
+    margin-top: 100px;
+}
+
+.skill-section h1{
+    text-align: center;
+    font-family: var(--font-fa-cur);
+    color: var(--color-green);
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+.skill-section-font{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    border-radius: 40px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    gap: 30px;
+}
+
+.skill-section-font h2{
+    width: 80%;
+    border: 2px solid rgba(0, 0, 0, 0.195);
+    text-align: center;
+    /* background-color: var(--color-green); */
+    color:-black;
+    border-radius: 40px;
+    font-family: var(--font-fa-san);
+    padding: 20px;
+    transition: all .4s ease-in-out .1s;
+}
+
+.skill-section-font h2:hover{
+    color: var(--color-white);
+    background-color: var(--color-green);
+    cursor: pointer;
+}
+
+
+/* Trailer-section */
+.trailer-section{
+    width: var(--container-width);
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    border-top: 3px solid rgba(0, 0, 0, 0.148);
+    border-bottom: 3px solid rgba(0, 0, 0, 0.148);
+}
+
+.trailer-section h1{
+    font-size: 3rem;
+    font-family: var(--font-fa-cur);
+    text-align: center;
+    margin-bottom: 30px;
+    color: var(--color-green);
+}
+
+.trailer-section iframe{
+    width: 100%;
+    height: 390px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+/* footer-section */
+.footer-secttion{
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    /* padding-block: 100px; */
+    border-top: 3px dotted var(--color-green);
+    border-radius: 20px;
+
+    background-image: url(/background\ ha.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.footer-secttion h2{
+    font-size: 3rem;
+}
+
+.footer-secttion p{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.footer-secttion h2,p{
+    font-family: var(--font-fa-san);
+}
+
+.footer-secttion p>span a{
+    font-family: var(--font-fa-san);
+    text-decoration: none;
+    border: 2px solid var(--color-green);
+    border-radius: 10px;
+    padding: 10px;
+    transition: all .4s ease-in-out .1s;
+}
+
+.footer-secttion p>span a:hover{
+    background-color: var(--color-green);
+    border: none;
+    font-weight: 700;
+    color: var(--color-white);
+}
+
+.footer-secttion h2>span{
+    font-family: var(--font-fa-cur);
+    color: var(--color-green);
+}
+
+
+
+
+
+
+
+/* ============== Media Quries ============== */
+/* navbar media quries */
+@media screen and (max-width: 1300px) and (min-width: 1024px){
+    .navbar{
+        width: 77.6%;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 900px){
+    .container{
+        width: var(--container-width);
+    }
+
+    .navbar{
+        width: 87%;
+    }
+
+    .right-sidebar-icon{
+        left: 5%;
+       }
+}
+
+
+@media screen and (max-width: 900px) and (min-width: 768px){
+    .container{
+        width: 87%;
+    }
+
+    .mini-container-first{
+        margin-top: 35px;
+    }
+
+    .navbar{
+        width: 83.7%;
+    }
+
+    .hero-education-section{
+        grid-template-columns: repeat(1,100%);
+    }
+
+
+/* ==================== */
+    .right-sidebar-icon{
+        top: 5.5%;
+        left: 6%;
+        margin-left: 20px;
+       }
+    
+       .right-sidebar-first-icon{
+        padding: 8px;
+       }
+}
+
+
+/* ================= Media quries for table ================= */
+@media screen and (max-width: 768px) and (min-width: 425px){
+    .container{
+        width: 95%;
+    }
+
+    .right-sidebar-icon{
+        top: 3%;
+        left: 2%;
+       }
+    
+       .right-sidebar-first-icon{
+        padding-inline: 16px;
+        font-size: .7rem;
+       }
+    
+
+    .mini-container-first{
+        margin-top: 20px;
+    }
+
+    .navbar{
+        display: none;
+        width: 78.1%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        padding-left: 5px;  
+    }
+    
+    /* This is left part of navbar */
+    .navbar-1{
+        display: none;
+        width: 40%;
+    }
+    
+    
+    /* This is center notch content */
+    .navbar-2{
+        width: 20%;
+        padding: 0px;
+        position: fixed;
+        left: 41%;
+    }
+    
+    .notch{
+        padding-top: 10px;
+    }
+    
+    .notch-point{
+        width: 6px;
+        height: 6px;
+        padding: 6px;
+    }
+    
+    
+    /* Right part of container navbar */
+     .navbar-3{
+        width: 40%;
+        display: none;
+    }
+
+
+    /* ============= Super Hero name ========= */
+    .super-hero-name{
+        width: var(--container-width);
+        text-align: center;
+        margin: auto;
+    }
+
+    .super-hero-name h1{
+        border-radius: 20px;
+    }
+    
+    .super-hero-name h1{
+        font-size: 2.2rem;
+    }
+    
+
+
+    /* ============== Education-section============ */
+    .hero-education{
+        width: var(--container-width);
+        background-image: none;
+    }
+    
+    .hero-education h2:nth-child(1){
+        font-size: 2.6rem;
+    }
+    
+    .hero-education h2:nth-child(2){
+        padding-inline: 10px;
+    }
+    
+    .hero-education-section{
+        display: grid;
+        grid-template-columns: repeat(1,100%);
+        grid-template-rows: auto;
+    
+        gap: 30px;
+        padding-inline:15px;
+        padding-top: 50px;
+    }
+    
+    .hero-education-1{
+        background-image: url(/background\ ba.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    /* ========== Exprience-section =========== */
+    #hero-exprience-section-font{
+        text-align: center;
+        font-size: 2.4rem;
+    }
+    
+    .hero-exprience-section-part{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+
+    /* ========== Skill-section */
+    .skill-section h1{
+        font-size: 2.7rem;
+    }
+    
+    .skill-section-font{
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+    
+    .skill-section-font h2{
+        width: var(--container-width);
+        padding: 20px;
+    }
+
+    /* =========== Trailer-section ============ */
+    .trailer-section{
+        width: var(--container-width);
+        height: auto;
+    }
+    
+    .trailer-section h1{
+        font-size: 2.6rem;
+    }
+    
+    .trailer-section iframe{
+        width: 100%;
+        height: 350px;
+        text-align: center;
+        border-radius: 20px;
+    }
+
+    .footer-secttion h2{
+        font-size: 1.4rem;
+    }
+    
+    .footer-secttion p{
+        font-size: 1rem;
+    }
+    
+    .footer-secttion p>span a{
+        padding: 5px;
+    }
+
+}
+
+
+/* ================= Media quries for mobile ================= */
+@media screen and (max-width: 425px){
+    .container{
+        width: 95%;
+    }
+
+    .right-sidebar-icon{
+        top: 3%;
+        left: 2.8%;
+       }
+    
+    .right-sidebar-first-icon{
+        padding-inline: 16px;
+        font-size: .7rem;
+    }
+
+    .mini-container-first{
+        margin-top: 30px;
+    }
+
+
+    .navbar{
+        display: none;
+        width: 78.1%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        padding-left: 5px;  
+    }
+    
+    /* This is left part of navbar */
+    .navbar-1{
+        display: none;
+        width: 40%;
+    }
+    
+    
+    /* This is center notch content */
+    .navbar-2{
+        width: 20%;
+        padding-top: 20px;
+        position: fixed;
+        left: 41%;
+    }
+    
+    .notch{
+        padding-top: 5px;
+        width: 20%;
+        border-radius: 10px;
+    }
+    
+    .notch-point{
+        width: 6px;
+        height: 6px;
+        padding: 6px;
+    }
+    
+    
+    /* Right part of container navbar */
+     .navbar-3{
+        width: 40%;
+        display: none;
+    }
+
+
+    /* ============= Super Hero name ========= */
+    .super-hero-name{
+        width: var(--container-width);
+        text-align: center;
+        margin: auto;
+    }
+
+    .super-hero-name h1{
+        border-radius: 20px;
+    }
+    
+    .super-hero-name h1{
+        font-size: 2.2rem;
+    }
+    
+
+
+    /* ============== Education-section============ */
+    .hero-education{
+        width: var(--container-width);
+        background-image: none;
+    }
+    
+    .hero-education h2:nth-child(1){
+        font-size: 2.6rem;
+    }
+    
+    .hero-education h2:nth-child(2){
+        padding-inline: 10px;
+    }
+    
+    .hero-education-section{
+        display: grid;
+        grid-template-columns: repeat(1,100%);
+        grid-template-rows: auto;
+    
+        gap: 30px;
+        padding-inline: 15px;
+        padding-top: 50px;
+    }
+    
+    .hero-education-1{
+        background-image: url(/background\ ba.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding-inline: 5px;
+    }
+
+    /* ========== Exprience-section =========== */
+    #hero-exprience-section-font{
+        text-align: center;
+        font-size: 2.4rem;
+    }
+    
+    .hero-exprience-section-part{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+
+    /* ========== Skill-section */
+    .skill-section h1{
+        font-size: 2.7rem;
+    }
+    
+    .skill-section-font{
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+    }
+    
+    .skill-section-font h2{
+        width: var(--container-width);
+        padding: 10px;
+    }
+
+    /* =========== Trailer-section ============ */
+    .trailer-section{
+        width: var(--container-width);
+    }
+    
+    .trailer-section h1{
+        font-size: 2.6rem;
+    }
+    
+    .trailer-section iframe{
+        width: 100%;
+        height: 250px;
+        text-align: center;
+        border-radius: 20px;
+    }
+
+    .footer-secttion h2{
+        font-size: 1.4rem;
+    }
+    
+    .footer-secttion p{
+        font-size: 1rem;
+    }
+    
+    .footer-secttion p>span a{
+        padding: 5px;
+    }
+
+}
+
+
+
+/*.fake{
+    
+    width: 80%;
+    margin: auto;
+    border: 1px solid-black;
+    margin-block: 200px;
+    display: flex;
+    text-align: center;
+}
+
+ .fake div{
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid;
+    margin-inline: 20px;
+    font-size: 2rem;
+    transition: all .2s linear .1s;
+    border-radius: 50%;
+}
+
+.fake div:hover{
+    background-color: var(--color-green);
+    color:-black;
+    cursor: pointer;
+    animation: how .8s ease-in-out .1s 1;
+} */
+
+
+/* @keyframes how {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(180deg);
+    }
+} */
