@@ -1,19 +1,19 @@
-# Hero-Project
-I make Hero Project Website useing  HTML and CSS. 
-<br>
-I used google font in website and font used (font awesome )
-website.
-<br>
-Image's are used from my local system.
-<br>
+# 🦸‍♂️ Hero Project  
 
+## 📌 About the Project  
+The **Hero Project Website** is built using **HTML & CSS**, focusing on **modern layout techniques** and **styling concepts**. This project helped me strengthen my understanding of **CSS fundamentals**, including **Box Model, Flexbox, Grid, Transforms, Transitions, and Animations**.  
 
-#Summary
-<br>
-I make this website because I want to improve my learning useing HTML and CSS.
-<br>
-I can make strong hand on HTML and CSS useing BOX MODEL, FLEX, GRID, TRASFROM, TRISITION and ANIMATION, FUNCTION, POSITION and More....
-<br>
-This is Project Link :- https://funny-fairy-ab0711.netlify.app/
+## 🎯 Purpose of the Project  
+- 🚀 **Learning**: Enhancing my skills in **HTML & CSS**.  
+- 🎨 **Design Exploration**: Practicing **typography and layout styling**.  
+- 🛠️ **Hands-on Experience**: Working with **Box Model, Flex, Grid, Animations, and Positioning**.  
 
+## 🛠️ Tech Stack  
+- **HTML5**  
+- **CSS3**  
+- **Google Fonts**  
+- **Font Awesome**  
+
+## 🌐 Live Demo  
+[🔗 View Hero Project](https://funny-fairy-ab0711.netlify.app/)  
 
